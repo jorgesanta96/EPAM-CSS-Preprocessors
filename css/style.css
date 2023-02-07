@@ -1,0 +1,133 @@
+body{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #EEEEEE;
+}
+
+#hero-section{
+    background-image: url(../assets/hero_background_image.png);
+    padding: 17%;
+}
+
+#hero-section h1{
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+#hero-section h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    opacity: 0.7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+main{
+    background-color: #EEEEEE;
+    padding: 8% 0;
+}
+
+main h2{
+    color: #464547;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+main h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #666666;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+main p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding: 0 10%;
+}
+
+main button{
+    background: #55C2D8;
+    border-radius: 18px;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border: 0;
+    font-weight: bolder;
+}
+
+#learn-more-section{
+    background-image: url(../assets/learn_more_image.png);
+    padding: 5%;
+}
+
+#learn-more-section h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+#learn-more-section button{
+    width: 150px;
+    height: 150px;
+    background: #39C2D7;
+    border-radius: 100px;
+    color: white;
+    border: 0;
+}
+
+#learn-more-section button img{
+    padding-left: 10%;
+}
+
+#learn-more-section h3{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 0 20%;
+}
+
+footer{
+    background: #464547;
+    text-align: left;
+    padding: 3% 10%;
+    font-family: 'Source Sans Pro';
+    color: rgba(255, 255, 255, 0.4);
+}
+
+footer p{
+    margin: 0;
+}
+
+footer img{
+    vertical-align: middle;
+}
+
+footer #footer-project{
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-left: 1%;
+}
