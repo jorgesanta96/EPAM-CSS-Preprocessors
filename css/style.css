@@ -8,6 +8,7 @@ body{
 
 #hero-section{
     background-image: url(../assets/hero_background_image.png);
+    background-size: 100% 100%;
 }
 
 header{
@@ -85,7 +86,6 @@ ul > li:hover{
 /* main-section */
 
 main{
-    background-color: #EEEEEE;
     padding-top: 2%;
     padding-bottom: 8%;
 }
@@ -151,6 +151,7 @@ main button{
 
 #learn-more-section{
     background-image: url(../assets/learn_more_image.png);
+    background-size: cover;
     padding: 5%;
 }
 
@@ -210,6 +211,8 @@ footer p:first-child{
     text-transform: uppercase;
     margin-left: 1%;
     color: white;
+
+    grid-column: 1 / 3;
 }
 
 footer p{
