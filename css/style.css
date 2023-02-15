@@ -9,7 +9,7 @@ body{
     background-color: #EEEEEE;
 }
 
-/* hero-section */
+/* ---- hero-section ---- */
 
 #hero-section{
     background-image: url(../assets/hero_background_image.png);
@@ -68,6 +68,18 @@ ul > li:hover{
     padding: 17%;
 }
 
+/* Some effects in hero section logo */
+
+.container-hero-section > img{
+    transition: 1s;
+}
+
+.container-hero-section > img:hover{
+    transform: rotateY(180deg) scale(1.5);
+}
+
+/* End of the effects */
+
 #hero-section h1{
     color: var(--white);
     font-weight: 700;
@@ -88,7 +100,7 @@ ul > li:hover{
     margin: 0;
 }
 
-/* main-section */
+/* ---- main-section ---- */
 
 main{
     padding-top: 2%;
@@ -152,7 +164,21 @@ main button{
     margin-top: 50px;
 }
 
-/* learn-more-section */
+/* Some effects in main section button */
+
+main button{
+    transform: rotate(0deg);
+    transition: all 1s;
+}
+
+main button:hover{
+    transform-origin: top left;
+    transform: rotate(15deg);
+}
+
+/* End of the effects */
+
+/* ---- learn-more-section ---- */
 
 #learn-more-section{
     background-image: url(../assets/learn_more_image.png);
@@ -177,9 +203,35 @@ main button{
     border: 0;
 }
 
-#learn-more-section button img{
-    padding-left: 10%;
+.play-logo {
+    margin-left: 38%;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 50px solid var(--white);
+    border-radius: 3px;
+  }
+
+/* Some effects in learn more section button */
+
+#learn-more-section button {
+    transition: all 1s;
 }
+
+#learn-more-section button:hover {
+    background-color: var(--white);
+}
+
+.play-logo {
+    transition: all 1s;
+}
+
+#learn-more-section button:hover .play-logo {
+    border-left: 50px solid #39C2D7;
+}
+
+/* End of the effects */
 
 #learn-more-section h3{
     font-family: var(--source-sans-pro);
@@ -191,7 +243,7 @@ main button{
     padding: 0 20%;
 }
 
-/* footer-section */
+/* ---- footer-section ---- */
 
 footer{
     background: #464547;
