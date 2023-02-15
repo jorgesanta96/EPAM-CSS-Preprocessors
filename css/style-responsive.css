@@ -11,8 +11,6 @@
     }
 
     #hero-section > header > .container-small-menu {
-        display: flex;
-        flex-direction: column;
         margin: 10px 20px;
     }
 
@@ -20,7 +18,7 @@
         width: 30px;
         height: 4px;
         background-color: white;
-        margin: 3px 0;
+        margin: 5px 0;
     }
 
     /* Responsive main content */
