@@ -66,3 +66,11 @@
         grid-row: 4 / 5;
     }
 }
+
+/* Responsive fix for background image animation */
+@media only screen and (max-width: 1000px) {
+    .background-img-effect:first-of-type {
+        width: 40%;
+        height: 79%;
+    }
+}

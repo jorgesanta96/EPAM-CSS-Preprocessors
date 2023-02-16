@@ -1,0 +1,41 @@
+.background-img-effect:first-of-type {
+    position: absolute;
+    top: 4%;
+    right: -2%;
+    animation-name: background-effect1;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.background-img-effect:last-of-type {
+    position: absolute;
+    top: -5%;
+    right: -1%;
+    animation-name: background-effect2;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes background-effect1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes background-effect2 {
+    0% {
+        opacity: 0.5;
+        transform: translate(0px, 0px);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-10px, -10px);
+    }
+}
