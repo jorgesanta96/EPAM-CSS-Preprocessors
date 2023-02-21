@@ -1,0 +1,66 @@
+.main-section {
+    padding-top: 2%;
+    padding-bottom: 8%;
+
+    .main-section__h2 {
+        color: $h2-color-main-section;
+        font-size: 48px;
+        line-height: 64px;       
+    }
+
+    .main-section__h3 {
+        font-family: $source-sans-pro;
+        color: $h3-color-main-section;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    > .main-section__container {
+        display: flex;
+        gap: 10%;
+
+        > p {
+            font-family: $source-sans-pro;
+            line-height: 22px;
+            color: $black;
+            padding: 1% 0;
+            margin-bottom: 0;
+            margin-top: 0;
+        
+            flex: 1 1 50%;
+            text-align: left;
+        }
+
+        .main-section__p1 {
+            margin-left: 10%;
+        }
+
+        .main-section__p2 {
+            margin-right: 10%;
+        }
+    }
+
+    .main-section__button {
+        background-color: $home-blue-color;
+        border-radius: 18px;
+        font-size: 14px;
+        line-height: 26px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: $white;
+        border: 0;
+        font-weight: bolder;
+        margin-top: 50px;
+        
+        /* Some effects in main section button */
+        transform: rotate(0deg);
+        transition: all 1s;
+
+        &:hover {
+            transform-origin: top left;
+            transform: rotate(15deg);
+        }
+        /* ... */
+    }
+}

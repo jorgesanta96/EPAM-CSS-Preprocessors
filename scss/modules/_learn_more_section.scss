@@ -1,0 +1,52 @@
+.learn-more-section {
+    @include setBackgroundImage('../assets/learn_more_image.png');
+    padding: 5%;
+    
+    .learn-more-section__h2 {
+        font-size: 48px;
+        line-height: 64px;
+        color: $white;        
+    }
+
+    .learn-more-section__button {
+        width: 150px;
+        height: 150px;
+        background: $home-blue-color;
+        border-radius: 100px;
+        color: $white;
+        border: 0;
+        
+        .learn-more-section__button-logo {
+            margin-left: 38%;
+            width: 0;
+            height: 0;
+            border-top: 25px solid transparent;
+            border-bottom: 25px solid transparent;
+            border-left: 50px solid $white;
+            border-radius: 3px;
+            
+            /* Some effects in learn more section button */
+            transition: all 1s;
+        }
+
+        transition: all 1s;
+
+        &:hover {
+            background-color: $white;
+
+            & .learn-more-section__button-logo {
+                border-left: 50px solid $home-blue-color;
+            }
+        }
+        /* ... */
+    }
+
+    .learn-more-section__h3 {
+        font-family: $source-sans-pro;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: $white;
+        padding: 0 20%;
+    }
+}

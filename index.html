@@ -9,46 +9,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-responsive.css">
-    <link rel="stylesheet" href="css/style-animations.css">
+    <link rel="stylesheet" href="css/style-animations.css"> -->
+    <link rel="stylesheet" href="scss/styles.css">
 </head>
 <body>
-    <section id="hero-section">
-        <header>
-            <a href="">Project</a>
-            <ul>
-                <li><a href="">Projects</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Stories</a></li>
-                <li><a href="">Contact</a></li>
+    <section class="hero-section">
+        <nav class="hero-section__nav">
+            <a class="hero-section__link" href="">Project</a>
+
+            <ul class="hero-section__list">
+                <li class="hero-section__item">
+                    <a class="hero-section__link" href="">Projects</a>
+                </li>
+                <li class="hero-section__item">
+                    <a class="hero-section__link" href="">About us</a>
+                </li>
+                <li class="hero-section__item">
+                    <a class="hero-section__link" href="">Stories</a>
+                </li>
+                <li class="hero-section__item">
+                    <a class="hero-section__link" href="">Contact</a>
+                </li>
             </ul>
-            <div class="container-small-menu">
-                <div class="small-menu"></div>
-                <div class="small-menu"></div>
-                <div class="small-menu"></div>
+
+            <div class="hero-section__container-small-menu">
+                <div class="hero-section__small-menu"></div>
+                <div class="hero-section__small-menu"></div>
+                <div class="hero-section__small-menu"></div>
             </div>
-        </header>
+        </nav>
 
-        <div class="container-hero-section">
-            <img src="assets/logo.png" alt="page logo">
+        <div class="hero-section__container">
+            <img class="hero-section__logo" src="assets/logo.png" alt="page logo">
 
-            <h1>Your Headline <br> Here</h1>
-            <h3>Lorem ipsum dolor sit amet,
+            <h1 class="hero-section__h1">Your Headline <br> Here</h1>
+            <h3 class="hero-section__h3">Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit sed do eiusmod.</h3>
         </div>
 
-        <img src="assets/animation-img1.png" class="background-img-effect">
-        <img src="assets/animation-img2.png" class="background-img-effect">
+        <img src="assets/animation-img1.png" class="hero-section__img-effect">
+        <img src="assets/animation-img2.png" class="hero-section__img-effect">
     </section>
 
-    <main>
-        <h2>This is the Section Headline,<br>
+    <main class="main-section">
+        <h2 class="main-section__h2">This is the Section Headline,<br>
             Continues to Two Lines</h2>
-        <h3>Lorem ipsum dolor sit amet, consectetur<br>
+        <h3 class="main-section__h3">Lorem ipsum dolor sit amet, consectetur<br>
             adipiscing elit sed do eiusmod.</h3>
-        <div>
-            <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        <div class="main-section__container">
+            <p class="main-section__p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -57,7 +68,7 @@
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
                 Sed ut perspiciatis unde omnis.
             </p>
-            <p id="p2">
+            <p class="main-section__p2">
                 Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in
                 reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -65,25 +76,30 @@
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </div>
-        <button>Read more</button>
+        <button class="main-section__button">Read more</button>
 
     </main>
 
-    <section id="learn-more-section">
-        <h2>Learn more <br>
+    <section class="learn-more-section">
+        <h2 class="learn-more-section__h2">Learn more <br>
             about our culture...</h2>
-        <button><div class="play-logo"></div></button>
-        <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse
+        <button class="learn-more-section__button">
+            <div class="learn-more-section__button-logo"></div>
+        </button>
+        <h3 class="learn-more-section__h3">Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur.</h3>
     </section>
 
-    <footer>
-        <p><img src="assets/logo.png" alt="page logo" width="18">Project</p>
-        <p>123 Street,<br>
+    <footer class="footer">
+        <p class="footer__p">
+            <img class="footer__logo" src="assets/logo.png" alt="page logo" width="18">
+            Project
+        </p>
+        <p class="footer__p">123 Street,<br>
             Anytown, USA 12345
         </p>
-        <p>hello@website.com</p>
-        <p>© 2021 Project. All rights reserved</p>
+        <p class="footer__p">hello@website.com</p>
+        <p class="footer__p">© 2021 Project. All rights reserved</p>
     </footer>
         
 </body>
